@@ -1,0 +1,37 @@
+{
+  "name": "postcss-svg",
+  "version": "1.0.4",
+  "description": "Postcss plugin for insert inline SVG to CSS",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavliko/postcss-svg.git"
+  },
+  "keywords": [
+    "postcss",
+    "plugin",
+    "svg",
+    "inline",
+    "colorize",
+    "color",
+    "css",
+    "image",
+    "background",
+    "postcss-plugin"
+  ],
+  "author": "Pavel Gorlov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pavliko/postcss-svg/issues"
+  },
+  "homepage": "https://github.com/Pavliko/postcss-svg#readme",
+  "dependencies": {
+    "color": "^0.10.1",
+    "dot": "^1.0.3",
+    "evil-icons": "^1.7.8",
+    "lodash": "^3.10.1",
+    "postcss": "^5.0.10",
+    "svgo": "^0.5.6",
+    "xmldom": "^0.1.19"
+  }
+}

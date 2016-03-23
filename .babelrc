@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-runtime",
+    "syntax-flow",
+    "transform-flow-strip-types"
+  ],
+  "ignore": [
+    "__BrowserBundle.js"
+  ],
+  "ast": false,
+  "comments": false
+}

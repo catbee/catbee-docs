@@ -1,0 +1,15 @@
+l10n:
+  default: ru_RU
+
+  available:
+    locales:
+      - ru_RU
+
+  domains:
+    - ru
+
+  domainLocale:
+    ru: ru_RU
+
+i18n:
+  default: ru_RU

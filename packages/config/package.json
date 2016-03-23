@@ -1,0 +1,9 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "description": "Easy access to our yaml config from any directory",
+  "main": "./index.js",
+  "browser": {
+    "../../config/config.js": "../../config/config.browser.js"
+  }
+}

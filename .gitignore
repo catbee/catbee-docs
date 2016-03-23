@@ -1,0 +1,13 @@
+node_modules
+/build
+
+messages.json
+
+.idea
+.DS_Store
+.env.local
+*.pyc
+
+npm-debug.log*
+
+__BrowserBundle.js

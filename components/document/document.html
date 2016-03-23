@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    {{#if ENV}}
+      <script>
+        var ENV = {{{ENV}}};
+      </script>
+    {{/if}}
+
+    <script src="/public/bundle.js"></script>
+  </body>
+</html>

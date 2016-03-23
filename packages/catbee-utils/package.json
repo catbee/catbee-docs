@@ -1,0 +1,7 @@
+{
+  "name": "catbee-utils",
+  "version": "1.0.0",
+  "description": "Catbee apps useful utils",
+  "main": "index.js",
+  "private": true
+}
