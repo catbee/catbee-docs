@@ -1,0 +1,8 @@
+{
+  "name": "plugins",
+  "logic": "./plugins.js",
+  "template": "./plugins.html",
+  "assets": [
+    "./plugins.css"
+  ]
+}

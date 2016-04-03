@@ -1,0 +1,8 @@
+{
+  "name": "navigation",
+  "logic": "./navigation.js",
+  "template": "./navigation.html",
+  "assets": [
+    "./navigation.css"
+  ]
+}

@@ -1,0 +1,47 @@
+.header {
+  margin-bottom: 35px;
+}
+
+.strong {
+  font-family: "LatoBlack", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.31px;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.version {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #9B9B9C;
+  line-height: 21px;
+  vertical-align: bottom;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 6px;
+}
+
+.group {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 32px;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 6px;
+}
+
+.section {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #000000;
+  line-height: 36px;
+  -webkit-font-smoothing: antialiased;
+  margin-left: 14px;
+}

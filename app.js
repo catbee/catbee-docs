@@ -7,10 +7,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var csshook = require('css-modules-require-hook');
 var scopedNames = require('./services/helpers/scopedNames.js');
-var i18n = require('./services/i18n');
-var helpers = require('./services/helpers');
 var localhost = require('./services/localhost/server');
-var search = require('./services/search');
+var uhr = require('catberry-uhr');
+var markdown = require('./services/markdown');
 
 /**
  * @param {Object} config - application config
@@ -28,15 +27,15 @@ exports.create = function create (config) {
   var generateScopedName = scopedNames.getScopedNameGenerator(customPattern, componentResolver, process.cwd());
 
   csshook({
-    generateScopedName
+    generateScopedName,
+    devMode: !config.isRelease
   });
 
   // Services
   handlebars.register(cat.locator);
-  search.register(cat.locator);
-  helpers.register(cat.locator);
-  i18n.register(cat.locator);
   localhost.register(cat.locator);
+  uhr.register(cat.locator);
+  markdown.register(cat.locator);
 
   // Middleware
   app.use(compression());
@@ -50,10 +49,6 @@ exports.create = function create (config) {
     var logger = cat.locator.resolve('logger');
     logger.trace(`Catbee application ready to work on port: ${config.port}`);
   });
-
-  // Aside routing
-  app.get('/external/i18n', require('./routes/i18n'));
-  app.get('/external/l10n', require('./routes/l10n'));
 
   return Promise.resolve(app);
 };

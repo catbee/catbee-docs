@@ -15,13 +15,10 @@ node ./node_modules/.bin/babel ./routes.js --out-file ./build/release/routes.js 
 
 cp ./run.js ./build/release/run.js &
 cp -R ./config ./build/release/config &
-cp -R ./i18n ./build/release/i18n &
 cp -R ./node_modules ./build/release/node_modules &
 
 find ./components -name '*.css' | cpio -pdm ./build/release &
 find ./components -name '*.html' | cpio -pdm ./build/release &
 find ./components -name '*.json' | cpio -pdm ./build/release &
-
-npm run i18n.po2json && find ./l10n -name '*.json' | cpio -pdm ./build/release &
 
 wait

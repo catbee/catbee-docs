@@ -1,0 +1,8 @@
+{
+  "name": "content",
+  "logic": "./content.js",
+  "template": "./content.html",
+  "assets": [
+    "./content.css"
+  ]
+}

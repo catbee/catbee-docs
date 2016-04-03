@@ -1,0 +1,8 @@
+{
+  "name": "article",
+  "logic": "./article.js",
+  "template": "./article.html",
+  "assets": [
+    "./article.css"
+  ]
+}

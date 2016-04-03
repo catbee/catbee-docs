@@ -1,0 +1,19 @@
+.container {
+  width: 980px;
+  margin: 115px auto 60px;
+}
+
+.title {
+  font-family: "LatoBlack", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.31px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+  width: 730px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -4px;
+}

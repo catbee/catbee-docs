@@ -1,0 +1,44 @@
+.header {
+  background: #000000;
+  height: 59px;
+}
+
+.container {
+  display: flex;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  font-family: "LatoBlack", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  color: #FFFFFF;
+  line-height: 32px;
+  letter-spacing: -0.31px;
+  -webkit-font-smoothing: antialiased;
+  margin: 12px 0 15px;
+  user-select: none;
+  text-decoration: none;
+}
+
+.menu {
+  flex: 1;
+  text-align: right;
+  margin: 20px 0 21px;
+}
+
+.link {
+  font-family: "Lato", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 11px;
+  line-height: 1;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link:first-child {
+  margin-left: 0;
+}

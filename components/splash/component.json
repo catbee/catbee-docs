@@ -1,0 +1,8 @@
+{
+  "name": "splash",
+  "logic": "./splash.js",
+  "template": "./splash.html",
+  "assets": [
+    "./splash.css"
+  ]
+}

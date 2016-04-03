@@ -1,0 +1,18 @@
+.container {
+  width: 980px;
+  margin: 115px auto 60px;
+}
+
+.navigation {
+  width: 230px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.content {
+  width: 730px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -4px;
+}

@@ -1,0 +1,29 @@
+.content {
+  margin-top: 65px;
+}
+
+.content h1 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 32px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content h2 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 32px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content p {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  line-height: 28px;
+  -webkit-font-smoothing: antialiased;
+}

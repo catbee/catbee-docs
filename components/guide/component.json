@@ -1,0 +1,8 @@
+{
+  "name": "guide",
+  "logic": "./guide.js",
+  "template": "./guide.html",
+  "assets": [
+    "./guide.css"
+  ]
+}
