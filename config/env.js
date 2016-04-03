@@ -14,8 +14,5 @@ module.exports = {
     scopedName: process.env.NODE_ENV === 'production' ? '[local]__[hash:base64:5]' : '[component]__[local]',
     output: './build/public/bundle.css'
   },
-  algolia: {
-    id: process.env.ALGOLIA_APPLICATION_ID,
-    key: process.env.ALGOLIA_KEY
-  }
+  markdownPath: process.env.MARKDOWN_PATH
 };

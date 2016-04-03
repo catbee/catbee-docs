@@ -1,11 +1,10 @@
 var Remarkable = require('remarkable');
 
 class Markdown {
-  constructor ($uhr) {
+  constructor ($uhr, $config) {
     this._uhr = $uhr;
-    this._remarkable = new Remarkable({ 
-      breaks: true
-    });
+    this._config = $config;
+    this._remarkable = new Remarkable({ breaks: true });
   }
 
   /**
@@ -15,7 +14,7 @@ class Markdown {
    */
   getDocument (filename) {
     return this._uhr
-      .get(`http://127.0.0.1:3000/public/assets/markdown/${filename}.md`)
+      .get(`${this._config.markdownPath}/${filename}.md`)
       .then((response) => this._remarkable.render(response.content));
   }
 }
