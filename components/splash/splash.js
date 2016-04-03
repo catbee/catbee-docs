@@ -12,9 +12,11 @@ class Splash {
   }
 
   bind () {
-    document
-      .querySelector(SELECTOR_CONTENT)
-      .classList.add(SELECTOR_VISIBLE);
+    _.delay(() => {
+      document
+        .querySelector(SELECTOR_CONTENT)
+        .classList.add(SELECTOR_VISIBLE);
+    }, 50);
   }
 }
 
